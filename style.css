@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.headder { 
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-color: #5680E9;
+    color: white;
+}
+
+.about-me {
+  font-size: larger;
+  line-height: 60px;
+  padding-left: 100px;
+}
+
+#my-photo {
+  border-radius: 20px;
+  border: solid 2px;
+  border-color: #ffffff;
+  margin-left: 250px;
+}
+
+#my-skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    font-size: xx-large;
+    color: #8860D0;
+}
+
+.skill-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-skill {
+  color: #5680E9;
+  line-height: 70px;
+  font-size: xx-large;
+}
+
+.main-skill {
+    height: 350px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    background-color: white;
+}
+
+#my-advantages {
+    color: #8860D0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 100px;
+}
+
+.why-me {
+    height: 700px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5AB9EA;
+}
+
+.my-advantages-roster {
+    padding: 20px;
+}
+
+.my-advantages-list {
+    line-height: 70px;
+    font-size: xx-large;
+}
+
+.my-advantages-help {
+  font-size: large;
+}
+
+.my-map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8860D0;
+  padding: 100px;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+}
+
+.my-form {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8860D0;;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5680E9 ;
+}
+
+.form-list{
+  color: black;
+  border-radius: 10px;
+  width: 450px;
+  height: 50px;
+  padding: 10px;
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sub-btn {
+  background-color: #C1C8E4;
+  font-size: large;
+}

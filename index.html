@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script src="wow.min.js"></script>
+  <script>
+    new WOW().init();
+    </script>
+    <title>Home Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="headder">
+            <div class="photo animate__animated animate__slideInLeft">
+                <img src="img/my Photo.png" alt="" id="my-photo">
+            </div>
+            <div class="about-me animate__animated animate__slideInRight">
+                <h1>Ефим Батин</h1>
+                <p>Мне 22 года. Я из города Нижний Тагил. <br> Образование по специальности Операционная деятельность в логистике. <br> У меня есть опыт работы в торговле и администрировании CRM Битрикс24. <br> Благодаря этому опыту я стрессоустойчив, легко нахожу общий язык с людьми и умею работать в режиме многозадачности. <br> Последний год я развиваюсь в Веб-разработке. Cейчас нахожусь в поиске работы.</p>
+            </div>
+        </div>
+        <h1 id="my-skills">Мои навыки</h1>
+        <div class="skill-list">
+            <ol>
+                <li class="my-skill">Работа с API</li>
+                <li class="my-skill">Работа с MySQL</li>
+                <li class="my-skill">Создание чат-ботов в Telegram</li>
+                <li class="my-skill">Создание одностроничных сайтов и приложений</li>
+            </ol>
+        </div>
+        <div class="main-skill wow animate__animated animate__slideInUp">
+            <div class="skills">
+                <div class="skill" id="skill-js">
+                    <img src="img/js.jpg" alt="">   
+                </div>
+                <div class="skill" id="skill-php">
+                    <img src="img/php.jpg" alt="">
+                </div>
+                <div class="skill" id="skill-css">
+                    <img src="img/css.jpg" alt="">
+                </div>
+                <div class="skill" id="skill-html">
+                    <img src="img/html.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <h1 id="my-advantages">Мои преимущества</h1>
+        <div class="why-me">
+            <ol class="wow animate__animated animate__slideInUp">
+                <li class="my-advantages-roster"><strong class="my-advantages-list">Грамотность</strong>
+                <p class="my-advantages-help">У меня грамотная речь</p>
+                </li>
+                <hr>
+                <li class="my-advantages-roster"><strong class="my-advantages-list">Целеустремленность</strong>
+                <p class="my-advantages-help">Всегда найду ответ на вопрос</p>
+                </li>
+                <hr>
+                <li class="my-advantages-roster"><strong class="my-advantages-list">Пунктуальность</strong>
+                <p class="my-advantages-help">Выполняю работу в срок</p>
+                </li>
+                <hr>
+                <li class="my-advantages-roster"><strong class="my-advantages-list">Ответственность</strong>
+                <p class="my-advantages-help">Всегда на связи</p>
+                </li>
+            </ol>
+        </div>
+        <h1 class="my-map">Мой адрес: Проспект строителей 22</h1>
+        <div class="map wow animate__animated animate__slideInUp">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A049551be836b210f68fecb3d1b06702f21da5fae4a1111a286ff4ba15b54dba6&amp;width=610&amp;height=475&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+        <h2 class="my-form">Оставьте заявку для связи со мной</h2>
+        <div class="form wow animate__animated animate__slideInUp">
+            <form action="sendForm.php" method="post">
+                <input type="text"   class="form-list" id="name-inpt" name="name" placeholder="Укажите Имя" required>
+                <input type="text"   class="form-list" id="email-inpt" name="email" placeholder="Укажите e-mail" required>
+                <input type="submit"   class="form-list" id="sub-btn" value="Отправить">
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
